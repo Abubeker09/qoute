@@ -1,0 +1,96 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(130deg, rgb(72, 133, 82), rgb(5, 79, 177));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.contaner{
+  background-color: rgba(255, 255, 255, 0.329);
+  width: 450px;
+  margin: 70px 40px 301px 40px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+}
+hr{
+  color: #2b2727;
+    height: 6px;
+    opacity: .5;
+}
+
+h2{
+  color: rgb(70, 22, 160);
+  font-family:'Courier New', Courier, monospace;
+  user-select: none;
+}
+
+@keyframes nam{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+p{
+  text-shadow: 1px 1px 5px rgb(150, 150, 149);
+  color: rgb(73, 42, 42);
+  margin: 25px;
+  font-family: cursive;
+  user-select: none;
+}
+.name{
+  width: 110px;
+  margin: 9% 0 0 76%;
+}
+
+.buttons{
+  display: flex;
+  height: 40px;
+  width: auto;
+  justify-content: space-around;
+}
+
+button{
+  user-select: none;
+  background-color: rgb(62, 62, 221);
+  color: aliceblue;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 19px;
+  border: none;
+  padding: 9px 9px 9px 18px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 5px black;
+  cursor: pointer;
+  width: 110px;
+  transition: 0.4s;
+}
+.tweet{
+  background-color: rgb(255, 255, 255);
+  color: rgb(42, 44, 185);
+  font-size: 15px;
+  box-shadow: 1px 1px 5px rgb(62, 62, 221);
+  font-weight: bolder;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button:hover{
+  padding: 12px 12px 12px 18px;
+  box-shadow: 1px 1px 10px rgb(62, 62, 221);
+  transition: 0.4s;
+}
+
+button:active{
+  box-shadow: inset 1px 1px 10px black;
+  transition: 0.4s;
+}
+
+img{
+  height: 100%;
+  border-radius: 20px;
+  margin-right: 5px;
+  animation: nam 9s infinite;
+}
